@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.textview {
+    width: 309px;
+    margin: 5px;
+    font-size: 50px;
+    padding: 5px;
+    background: rgb(226, 223, 232);
+    border: none
+}
+
+.button_0 {
+    width: 158px;
+}
+
+.button_equal {
+    height: 156px;
+}
+
+.main {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+
+}
+
+*/ h1 {
+    text-align: left;
+    color: rgb(235, 235, 235);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    height: 100%;
+}
