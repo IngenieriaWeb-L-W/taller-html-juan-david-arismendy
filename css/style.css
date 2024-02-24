@@ -1,49 +1,56 @@
+/* Reset all margins and padding to ensure consistent layout across browsers */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin:  0px;
+    padding:  0px;
 }
 
+/* Define styles for a generic button */
 .button {
-    width: 75px;
-    height: 75px;
-    font-size: 50px;
-    margin: 2px;
-    cursor: pointer;
-    background: rgb(74, 74, 74);
-    color: rgb(255, 255, 255);
-    border: none;
+    width:  75px; /* Button width */
+    height:  75px; /* Button height */
+    font-size:  50px; /* Button text size */
+    margin:  2px; /* Margin around the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    background: rgb(74,  74,  74); /* Button background color */
+    color: rgb(255,  255,  255); /* Button text color */
+    border: none; /* Removes default button border */
 }
 
+/* Styles for a text input field */
 .textview {
-    width: 309px;
-    margin: 5px;
-    font-size: 50px;
-    padding: 5px;
-    background: rgb(226, 223, 232);
-    border: none
+    width:  309px; /* Text input field width */
+    margin:  5px; /* Margin around the text input field */
+    font-size:  50px; /* Text input field text size */
+    padding:  5px; /* Padding inside the text input field */
+    background: rgb(226,  223,  232); /* Text input field background color */
+    border: none; /* Removes default text input field border */
 }
 
+/* Specific width for a button */
 .button_0 {
-    width: 158px;
+    width:  158px; /* Specific button width */
 }
 
+/* Specific height for a button */
 .button_equal {
-    height: 156px;
+    height:  156px; /* Specific button height */
 }
 
+/* Main container positioning */
 .main {
-    position: absolute;
-    top: 2%;
-    left: 2%;
-
+    position: absolute; /* Positions the main container absolutely */
+    top:  2%; /* Positions the main container  2% from the top */
+    left:  2%; /* Positions the main container  2% from the left */
 }
 
-*/ h1 {
-    text-align: left;
-    color: rgb(235, 235, 235);
+/* Styles for h1 elements */
+h1 {
+    text-align: left; /* Aligns text to the left */
+    color: rgb(235,  235,  235); /* Text color */
 }
 
+/* Body styles */
 body {
-    background: rgb(255, 255, 255);
-    height: 100%;
+    background: rgb(255,  255,  255); /* Body background color */
+    height:  100%; /* Full height of the body */
 }
