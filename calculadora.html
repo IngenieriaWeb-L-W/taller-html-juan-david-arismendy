@@ -26,6 +26,9 @@
                 <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
                 <!-- Multiplication button -->
                 <td><input class="button" type="button" value="*" onclick="insert('*')"></td>
+                <!-- Module Button-->
+                <td><input class="button special_font_size_button" type="button" value="Mod" onclick="insert('%')"></td>
+
             </tr>
             <!-- Row for number buttons  7,  8,  9 -->
             <tr>
@@ -34,6 +37,9 @@
                 <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
                 <!-- Subtraction button -->
                 <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+                <!-- Exp Button-->
+                <td><input class="button" type="button" value="^" onclick="insert('**')"></td>
+
             </tr>
             <!-- Row for number buttons  4,  5,  6 -->
             <tr>
@@ -42,6 +48,9 @@
                 <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
                 <!-- Addition button -->
                 <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+                <!-- & AND Button -->
+                <td><input class="button" type="button" value="&" onclick="insert('&')"></td>
+
             </tr>
             <!-- Row for number buttons  1,  2,  3 -->
             <tr>
@@ -49,7 +58,8 @@
                 <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
                 <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
                 <!-- Equals button with rowspan for vertical alignment -->
-                <td rowspan="5"><input class="button button_equal" type="button" value="=" onclick="equal()"></td>
+                <td rowspan="5" colspan="4"><input class="button button_equal" type="button" value="="
+                        onclick="equal()"></td>
             </tr>
             <!-- Row for number buttons  0 and decimal point -->
             <tr>
